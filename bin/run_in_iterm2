@@ -1,7 +1,7 @@
 #!/usr/bin/osascript
 
 on run argv
-  tell application "Terminal"
+  tell application "iTerm2"
     if (count of windows) is 0 then
       do script argv
     else
